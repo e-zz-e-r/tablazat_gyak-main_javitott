@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+  
+}
+table {
+    width: 70%;
+    margin: auto;
+}
+th {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 5px;
+
+}
+td {
+padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: rgb(111, 146, 0);
+}
+tr:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
